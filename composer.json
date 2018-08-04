@@ -1,0 +1,21 @@
+{
+    "name": "kryuu-common/json-stable-stringify",
+    "description": "deterministic version of json->stringify() so you can get a consistent hash from stringified results",
+    "repositories": [ 
+        { "type": "composer", "url": "https://composer.git.ryuu.technology/packages/php/" }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KryuuCommon\\JsonStableStringify\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KryuuCommon\\JsonStableStringifyTest\\": "module/kryuu/Landing/test/"
+        }
+    }
+}
