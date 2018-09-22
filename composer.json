@@ -2,7 +2,26 @@
     "name": "kryuu-common/json-stable-stringify",
     "description": "deterministic version of json->stringify() so you can get a consistent hash from stringified results",
     "repositories": [ 
-        { "type": "composer", "url": "https://composer.git.ryuu.technology/packages/php/" }
+            {
+            "type": "vcs",
+            "url": "https://github.com/nokimaro/php-Base58"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nokimaro/php-CryptoConditions"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nokimaro/php-Buffer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nokimaro/php-JsonStableStringify"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nokimaro/php-BigChainDB"
+        }        
     ],
     "require-dev": {
         "phpunit/phpunit": "4.*"
